@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     $home = $("#home");
     $about = $("#about");
-    $contact = $("#contact");
+    $contact = $("#contacts");
     $cs = $("#cs");
     $da = $("#da");
 

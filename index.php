@@ -13,44 +13,11 @@
     </script>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/scripts.js"></script>
+    <?php include 'includes/define.inc.php'
+    ?>
 </head>
 <body>
-    <nav class="navbar bg-dark fixed-top">
-        <div class="container-fluid ">
-            <a class="navbar-brand text-white " href="#"><h1>Grant Ferris</h1></a>
-            <div class="vertical-line"></div>
-            <div class="row ">
-                <div class="col-12">
-                    <ul class="nav">
-                        <li class="nav-item" id="home">
-                            <a class="link-primary nav-link text-white" href="index.php">Home</a>
-                        </li>
-                        <li class="nav-item" id="about">
-                            <a class="link-primary nav-link text-white" href="about.php">About</a>
-                        </li>
-                        <li class="nav-item" id="contact">
-                            <a class="link-primary nav-link text-white" href="contact.php">Contact</a>
-                        </li>
-                        <li class="nav-item" id="cs">
-                            <a class="link-primary nav-link text-white" href="cs.php">Computer Science</a>
-                        </li>
-                        <li class="nav-item" id="da">
-                            <a class="link-primary nav-link text-white" href="da.php">Digital Arts</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 active-underline" id="navline">
-                    
-                </div>
-            </div>
-            <div class="mx-auto">
-                <!-- 
-                This is currently used to take up space in the navbar so the links are right next to
-                the navbar
-                -->
-            </div>
-        </div>  
-    </nav>
+    <?php include INC_NAVBAR ?>
 
     <main style="margin-top: 120px;">
         <div class="container">
@@ -69,7 +36,7 @@
                     </p>
                     <p>
                         For more personal information about me, please visit the about page. If you would like to contact me
-                        then go to the contact page with my socials. If you would like to see my work in Computer Science or Digital Arts
+                        then go to the contacts page with my socials. If you would like to see my work in Computer Science or Digital Arts
                         then go to the respective pages.
                     </p>
                 </div>
@@ -79,14 +46,6 @@
     </main>
 
 
-    <footer class="bg-dark text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 pt-3">
-                    <p>Grant Ferris &copy; 2024</p>
-                    <p>Made using Bootstrap | JQuery</p>
-                </div>
-            </div>
-        </div>
+    <?php include INC_FOOTER ?>
 </body>
 </html>
