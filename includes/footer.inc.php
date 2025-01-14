@@ -1,3 +1,7 @@
+<!-- 
+Holds the footer used for each page
+-->
+
 <?php
     echo '<footer class="bg-dark text-white">
             <div class="container">

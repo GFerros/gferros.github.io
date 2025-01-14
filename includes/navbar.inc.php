@@ -1,6 +1,11 @@
+<!-- 
+Holds the navbar used for each page
+-->
+
+
 <?php echo '<nav class="navbar bg-dark fixed-top">
         <div class="container-fluid ">
-            <a class="navbar-brand text-white " href="#"><h1>Grant Ferris</h1></a>
+            <a class="navbar-brand text-white " href="index.php"><h1>Grant Ferris</h1></a>
             <div class="vertical-line"></div>
             <div class="row ">
                 <div class="col-12">

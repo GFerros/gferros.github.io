@@ -26,11 +26,11 @@
     display: block;
     width: 3em;
     height: 0.5em;
-    background-color: var(--blue-color);
+    background-color: none; 
+    /*set to none so it doesn't appear before the initial location is set which is dependent on the loaded page*/
     border-radius: 10px;
     position: relative;
     left: 25px;
-    transition:ease-in-out 0.2s;
-    transition-property: left width;
+    transition:left 0.2s, width 0.2s;
 }
 
